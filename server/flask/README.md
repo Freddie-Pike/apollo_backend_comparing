@@ -16,6 +16,7 @@ python3 -m venv venv
 Here's the commands to run the flask server
 
 ```bash
+export FLASK_ENV=development
 export FLASK_APP=app.py
 flask run
 ```
